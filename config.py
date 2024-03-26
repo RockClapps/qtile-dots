@@ -35,7 +35,7 @@ mod = "mod4"
 #terminal = guess_terminal()
 terminal = "kitty"
 editor = "neovide"
-launcher = "fuzzel --font='Fira Code' --icon-theme='Papirus-Dark' -b 222222ff -C aa0000ff -s aa0000ff -S ffffffff -M ffff00ff -B 2"
+launcher = "fuzzel --font='Fira Code' --icon-theme='Papirus-Dark' -w 64 -b 222222ff -C aa0000ff -s aa0000ff -S ffffffff -M ffff00ff -B 2"
 browserPrivate = "firefox --private-window"
 browser= "firefox"
 fileExplorer = "dolphin"
@@ -221,7 +221,7 @@ dgroups_app_rules = []  # type: list
 follow_mouse_focus = True
 bring_front_click = True
 floats_kept_above = True
-cursor_warp = False
+cursor_warp = True
 floating_layout = layout.Floating(
     float_rules=[
         # Run the utility of `xprop` to see the wm class and name of an X client.
